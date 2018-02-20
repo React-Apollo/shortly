@@ -1,7 +1,0 @@
-subscription {
-    Link(filter: { mutation_in: [CREATED] }) {
-        node {
-            id
-        }
-    }
-}

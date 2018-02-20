@@ -14,8 +14,8 @@ import { WebSocketLink } from 'apollo-link-ws';
 import { getMainDefinition } from 'apollo-utilities';
 import { ApolloLink } from 'apollo-link';
 
-const GRAPHQL_ENDPOINT = '';
-const SUBSCRIPTIONS_ENDPOINT = '';
+const GRAPHQL_ENDPOINT = 'https://api.graph.cool/simple/v1/cjdvepoew0ghc0197x1300bck';
+const SUBSCRIPTIONS_ENDPOINT = 'wss://subscriptions.ap-northeast-1.graph.cool/v1/cjdvepoew0';
 
 if (!SUBSCRIPTIONS_ENDPOINT) {
     throw Error('Provide a GraphQL Subscriptions endpoint.');
